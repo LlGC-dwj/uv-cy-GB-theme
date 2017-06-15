@@ -1,11 +1,21 @@
 @media print {
   #app {
 
-
-
     .mainPanel {
       .centerPanel {
         #content {
+
+          #viewer {
+            .openseadragon-container {
+              .openseadragon-canvas {
+                canvas {
+                  width: 100% !important;
+                  height: 100% !important;
+                }
+              }
+            }
+          }
+
           .attribution {
             display: none !important;
           }
@@ -13,13 +23,35 @@
 
         .content {
 
-          canvas {
-            width: auto !important;
-            height: 100% !important;
+          #viewer {
+            .openseadragon-container {
+              .openseadragon-canvas {
+                canvas {
+                  width: 100% !important;
+                  height: 100% !important;
+                }
+              }
+            }
           }
 
           .attribution {
             display: none !important;
+          }
+        }
+      }
+
+      .rightPanel {
+        .main {
+          .iiif-metadata-component {
+            .groups {
+              .group {
+                .items {
+                  .item_licence {
+                    display: block;
+                  }
+                }
+              }
+            }
           }
         }
       }
