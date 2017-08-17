@@ -1,0 +1,16 @@
+
+{
+  "name": "uv-cy-gb-theme",
+  "version": "1.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LlGC-dwj/uv-cy-gb-theme.git"
+  },
+  "author": "Edward Silverton <ed@edsilv.com> (http://edsilv.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LlGC-dwj/uv-cy-gb-theme/issues"
+  },
+  "homepage": "https://github.com/LlGC-dwj/uv-cy-gb-theme#readme"
+}
