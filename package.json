@@ -1,8 +1,8 @@
 
 {
-  "name": "uv-cy-gb-theme",
+  "name": "uv-llgc-cy-gb-theme",
   "version": "1.1.0",
-  "description": "",
+  "description": "Extension of Ed's standard theme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LlGC-dwj/uv-cy-gb-theme.git"
